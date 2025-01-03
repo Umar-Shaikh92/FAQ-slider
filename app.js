@@ -1,0 +1,11 @@
+$(document).ready(function(){
+    $("#board1").click(function(){
+      $("#panel1").slideToggle("slow");
+    });
+    $("#board2").click(function(){
+      $("#panel2").slideToggle("slow");
+    });
+    $("#board3").click(function(){
+      $("#panel3").slideToggle("slow");
+    });
+  });
